@@ -35,6 +35,6 @@ class CityListTest {
         City fakeCity = new City("Calgary", "Alberta");
 
         //created a failing test
-        assertTrue(cityList.hasCity(fakeCity));
+        assertFalse(cityList.hasCity(fakeCity));
     }
 }
